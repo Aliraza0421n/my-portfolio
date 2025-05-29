@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags for responsiveness and SEO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern versatile web app - portfolio, landing page, or dashboard">
+  <meta name="author" content="Your Name">
+
+  <title>Versatile Web App</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyBrand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+   
+  <header id="hero" class="vh-100 d-flex align-items-center bg-light">
+    <div class="container text-center">
+      <h1 class="display-4">Bringing Ideas to Life Through Clean Code & Creative Design.</h1>
+      <p class="lead">I’m Muhammad Ali Raza a web developer who builds fast, responsive websites that not only look sharp but perform flawlessly. Explore my work and see how we can turn your vision into reality.</p>
+      <a href="#projects" class="btn btn-primary btn-lg mt-3">View Projects</a>
+    </div>
+    </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="images/about.jpg" class="img-fluid rounded" alt="About image">
+        </div>
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>
+
+Hi, I’m Muhammad Ali Raza, a skilled web developer specializing in creating clean, responsive, and user-friendly websites. With expertise in HTML, CSS, JavaScript, and Bootstrap, I bring ideas to life through efficient code and thoughtful design. I’m passionate about crafting digital experiences that not only look great but perform seamlessly. Let’s connect and build something amazing together!
+
+
+</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Gallery Section -->
+  <section id="projects" class="py-5 bg-light" >
+
+    <div class="container py-5">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row g-4">
+        <!-- Project cards -->
+        <div class="col-md-4">
+             <a href="https://aliraza0421n.github.io/assignment-6/" style="text-decoration: none;" target="_blank" >
+          <div class="card h-100 shadow-sm">
+            <img src="images/real-state.PNG" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Assignment</h5>
+              <p class="card-text">A task management app built with a mobile-first approach. </p>
+              
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+             <a href="https://aliraza0421n.github.io/ICMA/" style="text-decoration: none;" target="_blank" >
+          <div class="card h-100 shadow-sm">
+            <img src="images/icma-temp.PNG" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Landing Page</h5>
+              <p class="card-text">A company landing page using Bootstrap grid and smooth animations.</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+             <a href="https://aliraza0421n.github.io/hackathon-today/" style="text-decoration: none;" target="_blank" >            
+          <div class="card h-100 shadow-sm">
+            <img src="images/hackathon.PNG" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">hackathon</h5>
+              <p class="card-text">A personal portfolio site showcasing skills and testimonials.</p>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <!-- <section id="testimonials" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What People Say</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <blockquote class="blockquote">
+            <p>"This developer transformed our business with an incredible dashboard UI."</p>
+            <footer class="blockquote-footer">Client A</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6">
+          <blockquote class="blockquote">
+            <p>"Clean, functional, and visually appealing. Highly recommended!"</p>
+            <footer class="blockquote-footer">Client B</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form id="contactForm" class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+        <div id="formFeedback" class="mt-3"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <p class="mb-0">&copy; 2025 Muhammad Ali Raza. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
+#hero {
+  background-image: url(images/welcome.jpg) !important;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ 
+}
